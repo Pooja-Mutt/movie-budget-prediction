@@ -1,7 +1,10 @@
 # This is a sample Python script.
-
+import Flask
 # Press Ctrl+F5 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+
+from flask import Flask
+app=Flask(__name__)
 
 
 def print_hi(name):
@@ -14,3 +17,4 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
